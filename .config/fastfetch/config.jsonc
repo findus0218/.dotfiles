@@ -1,0 +1,15 @@
+{
+  "logo": {
+    "type": "none"
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    { "type": "os", "key": "󰣇" },
+    "kernel",
+    "wm",
+    "break",
+    "colors"
+  ]
+}
