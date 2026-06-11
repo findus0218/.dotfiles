@@ -9,3 +9,4 @@ Really minimal Wayland desktop environment configuration.
 ## 📸 Overview
 
 ![Desktop Showcase](screenshots/desktop.png)
+![Neovim Showcase](screenshots/nvim.png)
