@@ -1,0 +1,10 @@
+local keymap = vim.keymap
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+keymap.set("n", "<leader>h", ":nohlsearch<CR>", { desc = "Clear search highlights" })
+keymap.set("n", "<C-b>", ":Neotree toggle left<CR>", { desc = "Toggle file explorer" })
+keymap.set('t', 'jk', [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
+keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to lower window" })
+keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to upper window" })
+keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to right window" })
